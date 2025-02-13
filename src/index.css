@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-Neutral900-062630: #062630;
+  --color-Neutral700-385159: #385159;
+  --color-Neutral200-E6E1DF: #e6e1df;
+  --color-Neutral100-FAF5F3: #faf5f3;
+  --color-Neutral0-FFF: #ffffff;
+  --color-LightSalmon500-fea36f: #fea36f;
+  --color-LightSalmon100-ffe2d1: #ffe2d1;
+  --color-LightSalmon50-fff5ef: #fff5ef;
+
+  /* font family */
+  --font-MartianMonoMain: "Martian Mono", "serif";
+  --font-Inter: "Inter", "serif";
+}
+
+@layer components {
+  .textGradient {
+    background: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+/* Tech
+
+CSS
+linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
+CSS
+linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%) */
