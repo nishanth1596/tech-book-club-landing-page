@@ -21,19 +21,31 @@ function Hero() {
           Review membership options <span>&darr;</span>
         </a>
 
-        <div className="mt-5 flex items-center">
+        <div className="mt-5 flex items-center gap-3">
           <img
             className="w-[110px]"
             src={avatarImg}
             alt="Avatar of three men"
           />
-          <div>
-            <img src={starIcons} alt="5 Star Icons" />
-            <p>200+ developers joined already</p>
+
+          <div className="flex flex-col gap-1">
+            <div className="flex">
+              {[...Array(5)].map((_, i) => (
+                <img src={starIcons} key={i} alt={`Star Icon ${i + 1}`} />
+              ))}
+            </div>
+
+            <p className="text-Neutral700-385159 text-sm leading-[1.2] font-normal tracking-[-1px]">
+              200+ developers joined already
+            </p>
           </div>
         </div>
       </div>
-      <img src={heroMobileImg} alt="" />
+      <img
+        className="mt-16 rounded-md"
+        src={heroMobileImg}
+        alt="One man and two women are finding interesting things in a book in a library"
+      />
     </section>
   );
 }
