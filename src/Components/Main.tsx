@@ -3,6 +3,7 @@ import Info1 from "./Info1";
 import Info2 from "./Info2";
 import Membership from "./Membership";
 import Steps from "./Steps";
+import Testimonials from "./Testimonials";
 
 function Main() {
   return (
@@ -12,7 +13,7 @@ function Main() {
       <Info2 />
       <Steps />
       <Membership />
-      <section>testimonials</section>
+      <Testimonials />
     </main>
   );
 }
