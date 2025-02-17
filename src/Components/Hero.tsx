@@ -1,7 +1,7 @@
 import heroMobileImg from "../assets/images/image-hero-mobile.webp";
 import heroTabletImg from "../assets/images/image-hero-tablet.webp";
-import StarRatedReview from "./starRatedReview";
 import downArrowIcon from "../assets/images/icon-arrow-down.svg";
+import StarRatedReview from "./StarRatedReview";
 
 function Hero() {
   return (

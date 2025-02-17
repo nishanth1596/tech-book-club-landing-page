@@ -1,5 +1,5 @@
 import avatarImg from "../assets/images/image-avatars.webp";
-import FiveStarsIcon from "./fiveStarsIcon";
+import FiveStarsIcon from "./FiveStarsIcon";
 
 type StarRatedReviewProps = {
   textWhite?: boolean;

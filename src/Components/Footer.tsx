@@ -1,7 +1,7 @@
 import arrowIcon from "../assets/images/icon-arrow-up.svg";
-import StarRatedReview from "./starRatedReview";
 import blueSkyIcon from "../assets/images/logo-bluesky.svg";
 import linkedinIcon from "../assets/images/logo-linkedin.svg";
+import StarRatedReview from "./StarRatedReview";
 
 function Footer() {
   return (
