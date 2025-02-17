@@ -19,7 +19,7 @@ function MembershipCard({ item }: MembershipCardProps) {
       </h3>
 
       {item.custom ? (
-        <p className="text-Neutral900-062630 mt-6 text-[2.13rem] leading-[1.3] tracking-[-1px]">
+        <p className="text-Neutral900-062630 border-Neutral200-E6E1DF mt-6 border-b-[1px] pb-6 text-[2.13rem] leading-[1.3] tracking-[-1px]">
           Custom
         </p>
       ) : (

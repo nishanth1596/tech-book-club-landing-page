@@ -6,7 +6,7 @@ import linkedinIcon from "../assets/images/logo-linkedin.svg";
 function Footer() {
   return (
     <footer className="bg-Neutral900-062630 w-full rounded-t-2xl px-4 pt-12 md:px-8 md:pt-16">
-      <h3 className="text-Neutral100-FAF5F3 text-center text-[2.13rem] leading-[1.3] font-semibold tracking-[-2px] md:text-[3.13rem]">
+      <h3 className="text-Neutral100-FAF5F3 text-center text-[2.13rem] leading-[1.3] font-semibold tracking-[-2px] md:text-[3.13rem] xl:mx-auto xl:max-w-[42.81rem]">
         Ready to debug your reading list?
       </h3>
       <button className="text-Neutral0-FFF linearGradientBlack bg-Neutral900-062630 border-Neutral0-FFF inset-0.5 mx-auto mt-8 flex w-full items-center justify-center gap-4 rounded-lg border-2 py-5 text-base leading-[1.3] font-semibold tracking-[-1px] uppercase active:ring-2 active:ring-offset-2 md:mt-10 md:max-w-96">
