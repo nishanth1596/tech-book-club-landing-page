@@ -5,7 +5,7 @@ import Main from "./Components/Main";
 function App() {
   return (
     <div className="flex h-screen flex-col">
-      <div className="mx-4 flex flex-col items-center md:mx-8 xl:mx-[8.44rem]">
+      <div className="mx-4 flex flex-col items-center md:mx-8 xl:mx-[8.44rem] xl:max-w-[73.125rem]">
         <Header />
         <Main />
       </div>
