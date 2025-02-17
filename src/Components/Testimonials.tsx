@@ -1,4 +1,4 @@
-import FiveStarsIcon from "./fiveStarsIcon";
+import FiveStarsIcon from "./FiveStarsIcon";
 
 function Testimonials() {
   return (
