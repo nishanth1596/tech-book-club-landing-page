@@ -22,6 +22,27 @@
     background-clip: text;
     color: transparent;
   }
+
+  .linearGradientSalmon,
+  .linearGradientBlack {
+    transition: background 0.3s ease;
+  }
+
+  .linearGradientSalmon:hover {
+    background: linear-gradient(
+      to right,
+      var(--color-LightSalmon100-ffe2d1) 0%,
+      var(--color-LightSalmon50-fff5ef) 100%
+    );
+  }
+
+  .linearGradientBlack:hover {
+    background: linear-gradient(
+      to right,
+      var(--color-Neutral700-385159) 0%,
+      var(--color-Neutral900-062630) 100%
+    );
+  }
 }
 
 /* Tech

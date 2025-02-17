@@ -14,7 +14,7 @@ type MembershipCardProps = {
 function MembershipCard({ item }: MembershipCardProps) {
   return (
     <article className="border-Neutral200-E6E1DF inset-0.5 rounded-lg border p-6">
-      <h3 className="text-Neutral900-062630 text-2xl font-semibold">
+      <h3 className="text-Neutral900-062630 text-2xl leading-[1.1] font-semibold">
         {item.title}
       </h3>
 
@@ -43,7 +43,7 @@ function MembershipCard({ item }: MembershipCardProps) {
         </li>
       </ul>
 
-      <button className="text-Neutral900-062630 bg-LightSalmon50-fff5ef inset-0.5 mt-8 w-full rounded-lg border-2 px-[78px] py-5 text-base leading-[1.3] font-semibold tracking-[-1px] uppercase">
+      <button className="text-Neutral900-062630 linearGradientSalmon bg-LightSalmon50-fff5ef inset-0.5 mt-8 w-full cursor-pointer rounded-lg border-2 py-5 text-base leading-[1.3] font-semibold tracking-[-1px] uppercase md:text-lg">
         {item.subscription ? "Subscribe now" : "Talk to us"}
       </button>
     </article>
