@@ -2,6 +2,7 @@ import imageMobile from "../assets/images/image-not-average-mobile.webp";
 import imageTablet from "../assets/images/image-not-average-tablet.webp";
 import imageDesktop from "../assets/images/image-not-average-desktop.webp";
 import icon from "../assets/images/pattern-circle.png";
+import typscriptIcon from "../assets/images/logos-tech.svg";
 
 function Info2() {
   return (
@@ -28,19 +29,27 @@ function Info2() {
         </p>
       </div>
 
-      <picture>
-        <source srcSet={imageMobile} media="(max-width: 767px)" />
-        <source
-          srcSet={imageTablet}
-          media="(min-width: 768px) and (max-width:1279px)"
-        />
-        <source srcSet={imageDesktop} media="(min-width: 1280px)" />
+      <div className="relative">
+        <picture>
+          <source srcSet={imageMobile} media="(max-width: 767px)" />
+          <source
+            srcSet={imageTablet}
+            media="(min-width: 768px) and (max-width:1279px)"
+          />
+          <source srcSet={imageDesktop} media="(min-width: 1280px)" />
+          <img
+            className="mt-10 rounded-xl md:rounded-3xl xl:mt-0 xl:max-w-[35rem]"
+            src={imageMobile}
+            alt="One old man and two women are reading books in a library and discussing something regarding it"
+          />
+        </picture>
+
         <img
-          className="mt-10 rounded-xl md:rounded-3xl xl:mt-0 xl:max-w-[35rem]"
-          src={imageMobile}
-          alt="One old man and two women are reading books in a library and discussing something regarding it"
+          className="absolute hidden md:right-[3.15rem] md:bottom-[3.15rem] md:block xl:right-[32.5rem] xl:bottom-8"
+          src={typscriptIcon}
+          alt="Logos of typescript, github and react"
         />
-      </picture>
+      </div>
     </section>
   );
 }

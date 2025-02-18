@@ -1,11 +1,5 @@
+import { techSteps } from "./data";
 import ItemSteps from "./ItemSteps";
-
-const techSteps = [
-  "Choose your membership tier",
-  "Get your monthly book selection",
-  "Join our discussion forums",
-  "Attend exclusive meetups",
-];
 
 function Steps() {
   return (
@@ -16,7 +10,7 @@ function Steps() {
 
       <div className="mt-8 space-y-8 pr-5 md:mt-12 md:space-y-[1.88rem] xl:grid xl:grid-cols-4 xl:gap-x-12">
         {techSteps.map((step, index) => (
-          <ItemSteps key={index} item={{ index, step }} />
+          <ItemSteps key={index} item={{ index, step }} totalSteps={4} />
         ))}
       </div>
     </section>
@@ -24,5 +18,3 @@ function Steps() {
 }
 
 export default Steps;
-
-// xl:flex xl:gap-12 xl:pr-0

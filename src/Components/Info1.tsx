@@ -2,13 +2,7 @@ import CheckLists from "./CheckLists";
 import imageMobile from "../assets/images/image-read-together-mobile.webp";
 import imageTablet from "../assets/images/image-read-together-tablet.webp";
 import imageDesktop from "../assets/images/image-read-together-desktop.webp";
-
-const infoLists = [
-  "Monthly curated tech reads selected by industry experts",
-  "Virtual and in-person meetups for deep-dive discussions",
-  "Early access to new tech book releases",
-  "Author Q&A sessions with tech thought leaders",
-];
+import { infoLists } from "./data";
 
 function Info1() {
   return (
